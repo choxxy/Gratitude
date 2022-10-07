@@ -66,7 +66,7 @@ class EntryFragment : Fragment(), MavericksView {
 
         val callback = object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
-                withState(viewModel, {
+                withState(viewModel) {
                     val isEdited = it.hasUserEdits
                     val isEmpty = it.isEmpty
                     if (isEdited && !isEmpty) {
@@ -74,7 +74,7 @@ class EntryFragment : Fragment(), MavericksView {
                     } else {
                         parentFragmentManager.popBackStack()
                     }
-                })
+                }
             }
         }
         requireActivity().onBackPressedDispatcher.addCallback(this, callback)

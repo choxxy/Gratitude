@@ -1,0 +1,1 @@
+/Users/choxxy/My Projects/Android/Gratitude/buildSrc/build/classes/kotlin/main/Libraries.class:/Users/choxxy/My Projects/Android/Gratitude/buildSrc/build/classes/kotlin/main/TestLibraries.class:/Users/choxxy/My Projects/Android/Gratitude/buildSrc/build/classes/kotlin/main/Versions.class

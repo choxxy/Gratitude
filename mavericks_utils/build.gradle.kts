@@ -37,6 +37,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    namespace = "com.presently.mavericks_utils"
 
     dependencies {
         implementation(Libraries.kotlin_stdlib)
